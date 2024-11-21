@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello World")
+    // Basic for-each loop
+    a := []string{"Foo", "Bar"}
+    for i, s := range a {
+        fmt.Println(i, s)
+    }
 }
