@@ -1,2 +1,5 @@
-# yourbasic.org_golang_for_loop_range_array_slice_map_channel
-4 basic range loop (for-each) patterns
+# yourbasic.org: 4 basic range loop (for-each) patterns
+
+## Reference:
+
+- https://yourbasic.org/golang/for-loop-range-array-slice-map-channel
