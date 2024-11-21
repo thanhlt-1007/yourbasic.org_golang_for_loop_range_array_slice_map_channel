@@ -18,4 +18,14 @@ func main() {
     for i := 0; i < len(s); i ++ {
         fmt.Printf("%x ", s[i])
     }
+
+    // Map iteration: keys and values
+    m := map[string]int{
+        "one": 1,
+        "two": 2,
+        "three": 3,
+    }
+    for k, v := range m {
+        fmt.Println(k, v)
+    }
 }
